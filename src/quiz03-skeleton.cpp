@@ -2,9 +2,8 @@
 using namespace std;
 class Employee{
     private:
-    // static int counter;
+    static int counter;
     protected:
-        static int counter;
         string name;
         double salary;
         
